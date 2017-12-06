@@ -1,0 +1,31 @@
+.tag {
+  display: table;
+  margin: 0 auto;
+  padding: 4px;
+  font-size: 10px !important;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  line-height: 1;
+  color: white !important;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 2px;
+  background-color: #de383b;
+  text-decoration: none;
+}
+
+.free-shipping {
+  -webkit-animation: flash linear 1s infinite;
+  animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+  0% { opacity: 1; } 
+  50% { opacity: .1; } 
+  100% { opacity: 1; }
+}
+@keyframes flash {
+  0% { opacity: 1; } 
+  50% { opacity: .1; } 
+  100% { opacity: 1; }
+}

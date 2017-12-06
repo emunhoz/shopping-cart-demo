@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 26px 5%;
+}
+
+.list li {
+  margin-bottom: 1.6em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .list li {
+    flex-basis: 48%;
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .list {
+    padding: 50px 2%;
+  }
+  .list li {
+    flex-basis: 22%;
+  }
+}
