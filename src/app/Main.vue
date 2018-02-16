@@ -15,11 +15,6 @@
 
   export default {
     name: 'App',
-    components: { SideBar, RootFooter },
-    methods: {
-      toggleMenuCart () {
-        console.log('foi')
-      }
-    }
+    components: { SideBar, RootFooter }
   }
 </script>
