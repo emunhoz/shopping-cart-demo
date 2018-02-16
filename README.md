@@ -1,6 +1,7 @@
 # shopping-cart
 
-> y
+## Demo
+https://emunhoz.github.io/shopping-cart-demo/#/dashboard
 
 ## Build Setup
 
