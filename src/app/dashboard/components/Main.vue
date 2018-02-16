@@ -21,7 +21,7 @@
           <ul class="items">
             <li v-for="product in items">
               <figure>
-                <img src="http://4.bp.blogspot.com/-lir7Iy2p8xw/UllO-VmpXEI/AAAAAAAADtw/PmnpZwsvuRk/s1600/Corinthians+2013+-+2014+1.png" alt="">
+                <img src="//4.bp.blogspot.com/-lir7Iy2p8xw/UllO-VmpXEI/AAAAAAAADtw/PmnpZwsvuRk/s1600/Corinthians+2013+-+2014+1.png" alt="">
               </figure>
               <a href="javascript:void(0);" class="item-remove" @click="removeFromCart(product)"><i class="fa fa-times" aria-hidden="true"></i></a>
               <div class="details">
@@ -45,7 +45,7 @@
         <li v-for="product in products">
           <div class="item-wrapper">
             <a href="javascript:void(0);" class="tag free-shipping" v-if="product.isFreeShipping">Frete grátis</a>
-            <img src="http://4.bp.blogspot.com/-lir7Iy2p8xw/UllO-VmpXEI/AAAAAAAADtw/PmnpZwsvuRk/s1600/Corinthians+2013+-+2014+1.png" alt="Preview image" width="50">
+            <img src="//4.bp.blogspot.com/-lir7Iy2p8xw/UllO-VmpXEI/AAAAAAAADtw/PmnpZwsvuRk/s1600/Corinthians+2013+-+2014+1.png" alt="Preview image" width="50">
             <div class="details">
               <p>{{ product.title }}</p>
               <hr>
